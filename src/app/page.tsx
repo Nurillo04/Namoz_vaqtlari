@@ -34,19 +34,19 @@ export default function Home() {
           <div className="navbar w-full flex justify-end">
             <div className="w-[60%] flex h-[80px] justify-between border-b items-end">
               <div className="flex items-center gap-x-10">
-                <button className=" p-1 rounded-lg">Year</button>
-                <button className="p-1 rounded-lg">Month</button>
-                <button className=" p-1 rounded-lg">Week</button>
-                <button className="  p-1 rounded-lg">Today</button>
+                <button className="text-pink-800 p-1 rounded-lg">Year</button>
+                <button className="text-pink-800 p-1 rounded-lg">Month</button>
+                <button className="text-pink-800 p-1 rounded-lg">Week</button>
+                <button className="text-pink-800  p-1 rounded-lg">Today</button>
               </div>
             </div>
           </div>
         </div>
       </nav>
-      <div className="container flex justify-end">
-        <div className="w-[65%] flex flex-col">
+      <div className="container flex justify-center">
+        <div className="w-[75%] flex flex-col">
           <div className="w-full flex justify-between">
-            <p className="border-b font-black text-purple-600 w-[150px]">
+            <p className="border-b font-black text-purple-600 w-[190px]">
               Monday
             </p>
             <p className="border-b font-black text-purple-600 w-[150px]">
